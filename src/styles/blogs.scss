@@ -1,0 +1,30 @@
+.blog-list{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    .blog-card{
+         
+        height: 320px;
+        margin: 3px;
+        // border: 1px solid grey;
+        cursor: pointer;
+        .image{
+            width: 100%;
+            height: 70%;
+            background-color: green;
+        }
+        .note{
+            h3{
+                font-size: 14px;
+                margin: 4px;
+            }
+            span{
+                font-size: 13px;
+                margin: 3px;
+                color: grey;
+            }
+        }
+    }
+}

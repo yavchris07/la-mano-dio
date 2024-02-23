@@ -1,0 +1,20 @@
+.container{
+    width: 80%;
+    margin: 10px auto ;
+     
+    .head{
+        display: flex;
+        .img{
+            width: 50%;
+            height: 400px;
+            background-color: rgb(0, 0, 255,.6);
+        }
+        .view{
+
+        }
+    }
+    .res{
+        margin: 10px 2px;
+    }
+    
+}

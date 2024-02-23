@@ -1,0 +1,32 @@
+$blue1:#003464;
+
+.mi{
+    width: 100%;
+    height: 410px;
+    background-color: $blue1;
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 7px;
+    align-items: center;
+
+    .middle-card{
+        background-color: none;
+        height: 100px;
+        text-align: center;
+        color: white;
+        h3{
+            font-size: 30px;
+            margin: 4px;
+        }
+        span{
+            font-size: 20px;
+            margin: 3px;
+        }
+        p{
+            font-size: 12px;
+            margin: 4px;
+            color: grey;
+        }
+    }
+}
