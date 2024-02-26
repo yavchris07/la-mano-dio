@@ -70,11 +70,6 @@ const NavBar = () => {
           </ul>
         </div>
 
-        {/* <div className='langs'>
-          <span>
-            <IoLanguage />
-          </span>
-        </div> */}
         {/* <Header /> */}
 
         {/* <div className='option'>

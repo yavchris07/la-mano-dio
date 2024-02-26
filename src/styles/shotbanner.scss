@@ -14,7 +14,7 @@ $blue-grey : rgb(239 242 250/1);
     // background-size: cover;
     background: $blue-grey;
     height: auto;
-    width: 80%;
+    width: 70%;
     // padding: 10px;
     margin: 10px auto;
     border-left: 5px solid #003464;
@@ -38,4 +38,36 @@ $blue-grey : rgb(239 242 250/1);
         font-size: 20px;
     }
     
+}
+
+//responsive
+@media screen and (max-width:600px) {
+    .banner1{
+        background: $blue-grey;
+        height: auto;
+        width: 90%;
+        // padding: 10px;
+        margin: 10px auto;
+        border-left: 5px solid #003464;
+        text-align: start;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 1px 3px;  
+    
+        h1{
+            // padding-top: 100px;
+            font-size: 18px;
+            // font-weight: 400;
+            margin: 1px;
+            color: $blue1;
+            text-transform: uppercase;
+        }
+        span{
+            // background:rgb(0, 128, 0,.3);
+            border-radius: 50%;
+            font-size: 18px;
+        }
+        
+    }
 }

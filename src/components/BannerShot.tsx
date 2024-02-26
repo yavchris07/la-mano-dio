@@ -3,9 +3,10 @@ import { FaArrowDown } from "react-icons/fa";
 
 type titleProps = {
   title:string;
+  width ?: string
 }
 
-function BannerShort({title}:titleProps) {
+function BannerShort({title,width}:titleProps) {
   return (
     <div className='banner1'>
         {/* <p>{path}</p> */}

@@ -38,3 +38,42 @@ $blue1:#003464;
     }
 
 }
+
+.all-title{
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    h4{
+        font-size: 22px;
+        margin: 4px;
+    }
+    p{
+        color: grey;
+        font-size: 15px;
+    }
+}
+
+.services-card-home-list{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+
+    .service-card{
+        border: 1px solid grey;
+        background: white;
+        padding: 3px;
+        border-radius: 4px;
+        h3{
+            font-size: 18px;
+            margin: 4px;
+        }
+        p{
+            color: grey;
+            font-size: 13px;
+        }
+    }
+    
+
+}

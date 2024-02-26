@@ -20,10 +20,10 @@ const Banner = () => {
         </div>
 
         <div className='logo'>
-            <div className='icon'>
-                LA MANO DI DIO  LOGO
-            </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            {/* <div className='icon'>
+                {/* <h2></h2>
+            </div> */}
+            <p>Bienvenue chez LA MANO DI DIO, votre partenaire de confiance pour tous vos projets de construction, d'immobilier et d'import-export en République Démocratique du Congo et à l'étranger </p>
         </div>
 
     </div>

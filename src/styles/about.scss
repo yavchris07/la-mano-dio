@@ -21,7 +21,7 @@ $text-color: #333;
 $dark-color: #000;
 
 .about-card-list{
-    width: 80%;
+    width: 70%;
     margin: auto;
     text-align: start;
 
@@ -38,7 +38,40 @@ $dark-color: #000;
             // width: 60%;
             text-align: start;
             // margin-left: 5px;
+            h2{
+                font-size: 20px;
+            }
+
             p{color: grey;}
         }
     }
+}
+
+//responsive
+@media screen and (max-width:600px) {
+    .about-card-list{
+        width: 90%;
+        margin: auto;
+        text-align: start;
+    
+        .card-about{
+            width: 100%;
+            // margin: 10px auto;
+            // background-color: red;
+            // height: auto;
+            display: block;
+            // border: 1px solid grey;
+            // border-radius: 2px;
+    
+            .note{
+                // width: 60%;
+                text-align: start;
+                // margin-left: 5px;
+                h2{
+                    font-size: 18px;
+                }
+                p{color: grey;}
+            }
+        }
+    } 
 }
