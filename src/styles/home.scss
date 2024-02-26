@@ -181,4 +181,29 @@ $blue1:#003464;
         }
         
     }
+
+    //import & export
+    .import-export-list{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 7px;
+    
+        .import-card{
+            border: 1px solid #212121;;
+            background: #212121;
+            padding: 5px;
+            border-radius: 4px;
+            h3{
+                font-size: 18px;
+                margin: 4px;
+                color: white;
+            }
+            p{
+                color: grey;
+                font-size: 13px;
+            }
+        }
+    }
 }
