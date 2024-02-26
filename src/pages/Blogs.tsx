@@ -18,9 +18,13 @@ const Blogs = () => {
       <BannerShort title="ACTUALITES ET LES BLOGS SUR NOS REALISATIONS"/>
 
       <div className="blog-list">
-        {
+        {/* {
           post.map(p => {return <BlogCard post={p} key={p.id} />})
-        }
+        } */}
+        <p style={{textAlign:'center',fontSize:20}}>
+        En cours de développement
+        </p>
+        
       </div>
     </>
   )
