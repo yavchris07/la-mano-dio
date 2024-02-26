@@ -1,7 +1,7 @@
 $blue1:#003464;
 
 .product-card-home-list{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -54,7 +54,7 @@ $blue1:#003464;
 }
 
 .services-card-home-list{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -76,6 +76,30 @@ $blue1:#003464;
     }
     
 
+}
+
+.import-export-list{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+
+    .import-card{
+        border: 1px solid #212121;;
+        background: #212121;
+        padding: 5px;
+        border-radius: 4px;
+        h3{
+            font-size: 18px;
+            margin: 4px;
+            color: white;
+        }
+        p{
+            color: grey;
+            font-size: 13px;
+        }
+    }
 }
 
 //responsive

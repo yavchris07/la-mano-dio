@@ -9,10 +9,15 @@ import MiddleBanner from '../components/MiddleBanner';
 import IService from '../types/service';
 import ServiceCard from '../components/ServiceCard';
 import SERVICES from '../types/service-data';
+import Im from '../types/im';
+import IM from '../types/im-data';
+import ImportCard from '../components/ImportCard';
+
 
 const Home = () => {
   const [products] = useState<IProduct[]>(Products);
   const [services] = useState<IService[]>(SERVICES);
+  const [mport] = useState<Im[]>(IM)
 
   return (
     <>
@@ -45,11 +50,11 @@ const Home = () => {
         <p>Besoin de plus d'informations ou prêt à éffectuer l'import ou l'export ? Veillez contacter notre service client </p>
       </div>
 
-      <div className="services-card-home-list">
+      <div className="import-export-list">
         {
-          // services.map(service => {
-          //   return <ServiceCard  key={service.id} service={service} />
-          // })
+          mport.map(mp => {
+            return <ImportCard key={mp.id} mport={mp} />
+          })
         }
       </div>     
 
