@@ -29,7 +29,7 @@ const Home = () => {
 
       <div className='all-title'>
         <h4>NOS SERVICES</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione saepe qui perferendis accusantium architecto similique ipsum assumenda,</p>
+        <p>LA MANO DI DIO, votre partenaire de confiance pour tous vos projets de construction, d'immobilier et d'import-export en République Démocratique du Congo et à l'étranger. Avec notre expertise diversifiée et notre engagement envers l'excellence, nous nous engageons à réaliser vos ambitions avec précision et qualité.</p>
       </div>
       
       <div className="services-card-home-list">
@@ -40,6 +40,31 @@ const Home = () => {
         }
       </div>
 
+      <div className='all-title'>
+        <h4>IMPORT & EXPORT</h4>
+        <p>Besoin de plus d'informations ou prêt à éffectuer l'import ou l'export ? Veillez contacter notre service client </p>
+      </div>
+
+      <div className="services-card-home-list">
+        {
+          // services.map(service => {
+          //   return <ServiceCard  key={service.id} service={service} />
+          // })
+        }
+      </div>     
+
+      <div className='all-title'>
+        <h4>NOUS CONTACTER</h4>
+        <p>Besoin de plus d'informations ou prêt à démarrer un projet avec nous ? Contactez-nous dès aujourd'hui pour discuter de vos besoins spécifiques. Nous sommes là pour vous aider.</p>
+      </div>
+
+      <div className="services-card-home-list">
+        {
+          // services.map(service => {
+          //   return <ServiceCard  key={service.id} service={service} />
+          // })
+        }
+      </div>
 
     </>
   )

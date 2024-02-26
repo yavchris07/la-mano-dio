@@ -10,8 +10,15 @@ const About = () => {
       <NavBar />
       <BannerShort title="APROPOS DE NOUS "/>
       <div className='about-card-list'>
-        <CardAbout 
+
+     
+      <CardAbout 
           title = "Qui nous sommes !"
+          resume = " LA MANO DI DIO, votre partenaire de confiance pour tous vos projets de construction, d'immobilier et d'import-export en République Démocratique du Congo et à l'étranger. Avec notre expertise diversifiée et notre engagement envers l'excellence, nous nous engageons à réaliser vos ambitions avec précision et qualité." 
+        />
+
+        <CardAbout 
+          title = ""
           resume = " Depuis notre fondation, LA MANO DI DIO a été synonyme d'innovation, d'intégrité et de qualité dans le secteur du bâtiment, de l'immobilier et de l'import-export. Découvrez notre parcours, jalonné de réalisations exceptionnelles et de partenariats solides." 
         />
 

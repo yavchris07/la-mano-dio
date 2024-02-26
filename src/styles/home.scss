@@ -77,3 +77,84 @@ $blue1:#003464;
     
 
 }
+
+//responsive
+@media screen and (max-width:600px) {
+    //products
+    .product-card-home-list{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+    
+        .product-card{
+            height: 300px;
+            margin: 4px;
+            .image{
+                width: 100%;
+                height: 65%;
+                background: rgb(0, 0, 255,.6);
+            }
+            .note{
+                h3{
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin: 2px;
+                }
+                span{
+                    font-size: 13px;
+                    color: grey;
+                }
+            }
+            .btn{
+                background: $blue1;
+                border-radius: 3px;
+                border: none;
+                padding: 7px;
+                cursor: pointer;
+                color: white;
+            }
+    
+        }
+    
+    }
+    
+    //title
+    .all-title{
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+        h4{
+            font-size: 18px;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    
+    //services
+    .services-card-home-list{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+    
+        .service-card{
+            border: 1px solid grey;
+            background: white;
+            padding: 3px;
+            border-radius: 4px;
+            h3{
+                font-size: 18px;
+                margin: 4px;
+            }
+            p{
+                color: grey;
+                font-size: 13px;
+            }
+        }
+        
+    }
+}
