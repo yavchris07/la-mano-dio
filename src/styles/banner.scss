@@ -269,7 +269,7 @@ nav{
         height: 60px;
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         position: sticky;
         align-items: center;
         z-index: 100px;
@@ -281,13 +281,13 @@ nav{
             ul{
                 gap: 4px;
                 margin-top: 20px;
-                padding: 15px;
+                padding: 14px;
                 // list-style: none;
                 li{
                     text-decoration: none;
                     list-style: none;
                     // color: #212121;
-                    font-size: 14px;
+                    font-size: 13px;
                     font-weight: 700;
                     .link{
                         color: #fff;
@@ -299,115 +299,6 @@ nav{
                 }
                 
             }
-        }
-
-        .lang{
-            background-color: #efefef;
-            display: flex;
-            padding: 6px 10px;
-
-        }
-        
-        // .header {
-        //     background-color: $bg-color;
-        //     color: $text-color;
-        //     text-align: center;
-        //     padding: 20px 0;
-        
-        //     &--fixed {
-        //       position: fixed;
-        //       top: 0;
-        //       left: 0;
-        //       width: 100%;
-        //       z-index: 100;
-        //     }
-        
-        //     &--transparent {
-        //       background-color: rgba($bg-color, 0.9);
-        //     }
-        
-        //     .container {
-        //       display: flex;
-        //       justify-content: space-between;
-        //       align-items: center;
-        //     }
-        
-        //     &__brand {
-        
-        //       h1 {
-        //         font-size: 20px;
-        
-        //         a {
-        //           color: $text-color;
-        //         }
-        //       }
-        //     }
-        
-        //     &__nav {
-        //       display: flex;
-        //       align-items: center;
-        
-        //       &_lang {
-        //         position: relative;
-        
-        //         .selected {
-        //           width: 50px;
-        //           background-color: $primary-color;
-        //           color: $light-color;
-        //           padding: 5px;
-        //           font-weight: 700;
-        //           font-size: 12px;
-        //           border-radius: 2px;
-        //           cursor: pointer;
-        //         }
-        
-        //         .dropdown {
-        //           position: absolute;
-        //           top: calc(100% + 5px);
-        //           left: 0;
-        //           width: 100%;
-        //           background-color: $light-color;
-        //           border-radius: 2px;
-        //           padding: 5px 0;
-        //           box-shadow: 0 0 10px rgba($dark-color, 0.2);
-        
-        //           li {
-        //             text-align: center;
-        //             font-size: 12px;
-        //             padding: 5px;
-        //             cursor: pointer;
-        
-        //             &:hover {
-        //               color: $primary-color;
-        //             }
-        //           }
-        //         }
-        //       }
-        
-        //       &_menu {
-        //         display: flex;
-        //         align-items: center;
-        
-        //         li {
-        //           margin-left: 20px;
-        
-        //           a {
-        //             font-weight: 700;
-        //             font-size: 12px;
-        //             text-transform: uppercase;
-        //             color: $text-color;
-        
-        //             &:hover,
-        //             &.active {
-        //               color: $primary-color;
-        //             }
-        //           }
-        //         }
-        //       }
-        //     }
-        // }
-        .option{
-        display: none;
         }
     
     }
