@@ -63,7 +63,32 @@
             padding: 2px 15px;
         }
     }
+}
 
+.cover-container{
+    width: 100%;
+    height:600px;
+    background: url('../assets/logistics.jpg');
+    background-size: cover;
+
+       // background-position: ;
+       .cov{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(33, 33, 33,.8);
+        text-align: center;
+        h4{
+            margin: 0;
+            font-size: 40px;
+            color: white;
+            padding-top: 240px;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            padding: 2px 20px;
+        }
+    }
 }
 
 //responsive
@@ -115,5 +140,30 @@
             }
         }
     
+    }
+
+    .cover-container{
+        width: 100%;
+        height:500px;
+        background: url('../assets/logistics.jpg');
+        background-size: cover;
+    
+           // background-position: ;
+           .cov{
+            width: 100%;
+            height: 100%;
+            background-color:rgb(33, 33, 33,.8);
+            text-align: center;
+            h4{
+                margin: 0;
+                font-size: 25px;
+                padding-top: 200px;
+            }
+            p{
+                color: white;
+                font-size: 16px;
+                padding: 2px 20px;
+            }
+        }
     }
 }
