@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import IProduct from "../types/product";
-import { FaChevronRight } from "react-icons/fa6";
 import '../styles/prod.scss';
+import { FaPlus } from "react-icons/fa6";
 import { CgCalendarDates } from "react-icons/cg";
 
 type productCardProps = {
@@ -21,7 +21,7 @@ const ProductCard = ({product}:productCardProps ) => {
             <span> <CgCalendarDates /> {product.dt}</span>
         </div>
         <button onClick={()=> nv('/product/'+product.id)} className="btn">
-          Se renseigner <FaChevronRight style={{fontSize: 12}} />
+          Voir plus <FaPlus style={{fontSize: 12}} />
         </button>
     </div>
   )

@@ -3,53 +3,53 @@ import IProduct from "./product";
 const Products:IProduct[] = [
     {
         id:0,
-        img: "./img/african-american.jpg",
-        title:" Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        img: "/img/african-american.jpg",
+        title:"Export et  import",
         dt:"le 14 nov 2023",
-        resume : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem dolorum ducimus velit voluptatibus praesentium sunt doloremque numquam nesciunt totam! Unde omnis eos quod reiciendis vero explicabo voluptatem assumenda ratione?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veritatis totam praesentium maiores repellat hic deserunt pariatur voluptas iste. At fuga aut et omnis praesentium sint commodi, repudiandae similique assumenda?"
+        resume : "Detais en cours de redaction ! ... "
     },
     {
         id:1,
-        img: "./img/people.jpg",
-        title:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit deleniti quos porro assumenda, delectus tempora tempore magni hic, eaque praesentium reiciendis ab cumque voluptas tenetur! Nulla optio atque quos.",
+        img: "/img/people.jpg",
+        title:" Une équipe professionnelle disponible pour vous",
         dt:"le 14 nov 2023",
-        resume : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem dolorum ducimus velit voluptatibus praesentium sunt doloremque numquam nesciunt totam! Unde omnis eos quod reiciendis vero explicabo voluptatem assumenda ratione?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veritatis totam praesentium maiores repellat hic deserunt pariatur voluptas iste. At fuga aut et omnis praesentium sint commodi, repudiandae similique assumenda?"
+        resume : "Notre equipe qualifiée propose une gamme complète de services de construction, allant de la conception à la réalisation. Que vous ayez besoin de construire une maison, un complexe commercial ou une infrastructure industrielle. Nous avons l expertise pour le réaliser"
     },
     {
         id:2,
-        img: "./img/close.jpg",
-        title:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit deleniti quos porro assumenda, delectus tempora tempore magni hic.",
+        img: "/img/close.jpg",
+        title:" Planification du projet, du debut à la fin par léquipe La mano di dio",
         dt:"le 14 nov 2023",
-        resume : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem dolorum ducimus velit voluptatibus praesentium sunt doloremque numquam nesciunt totam! Unde omnis eos quod reiciendis vero explicabo voluptatem assumenda ratione?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veritatis totam praesentium maiores repellat hic deserunt pariatur voluptas iste. At fuga aut et omnis praesentium sint commodi, repudiandae similique assumenda?"
+        resume : "Details en cours de radaction !"
     },
     {
         id:3,
-        img: "./img/construction.jpg",
-        title:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit deleniti quos porro assumenda.",
+        img: "/img/construction.jpg",
+        title:"Equipement de protection industrille",
         dt:"le 14 nov 2023",
-        resume : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem dolorum ducimus velit voluptatibus praesentium sunt doloremque numquam nesciunt totam! Unde omnis eos quod reiciendis vero explicabo voluptatem assumenda ratione?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veritatis totam praesentium maiores repellat hic deserunt pariatur voluptas iste. At fuga aut et omnis praesentium sint commodi, repudiandae similique assumenda?"
+        resume : "Details en cours de radaction !"
     }, 
     {
         id:4,
-        img: "./img/couple-making-plans.jpg",
-        title:" Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        img: "/img/couple-making-plans.jpg",
+        title:"Acquisition, Vente et Gestion Immobilière ",
         dt:"le 22 oct 2023",
-        resume : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem dolorum ducimus velit voluptatibus praesentium sunt doloremque numquam nesciunt totam! Unde omnis eos quod reiciendis vero explicabo voluptatem assumenda ratione?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veritatis totam praesentium maiores repellat hic deserunt pariatur voluptas iste. At fuga aut et omnis praesentium sint commodi, repudiandae similique assumenda?"
+        resume : "Faites confiance à notre équipe pour vous guider dans toutes vos transactions immobilières, de l'achat à la vente en passant par la gestion. Nous nous engageons à maximiser la valeur de votre investissement immobilier tout en vous offrant un service personnalisé et attentionné."
            
     },
     {
         id:5,
-        img: "./img/engineer-holding.jpg",
-        title:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit deleniti quos porro assumenda.",
+        img: "/img/engineer-holding.jpg",
+        title:"Suivie de la conception à la réalisation de projet en batiment et construction",
         dt:"le 5 nov 2023",
-        resume : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem dolorum ducimus velit voluptatibus praesentium sunt doloremque numquam nesciunt totam! Unde omnis eos quod reiciendis vero explicabo voluptatem assumenda ratione?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veritatis totam praesentium maiores repellat hic deserunt pariatur voluptas iste. At fuga aut et omnis praesentium sint commodi, repudiandae similique assumenda?"    
+        resume : "Details en cours de radaction !"    
     },
     {
         id:6,
-        img: "./img/large-building.jpg",
+        img: "/img/large-building.jpg",
         title:" Reamenagement de votre villa",
         dt:"le 14 dec 2022",
-        resume : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem dolorum ducimus velit voluptatibus praesentium sunt doloremque numquam nesciunt totam! Unde omnis eos quod reiciendis vero explicabo voluptatem assumenda ratione?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veritatis totam praesentium maiores repellat hic deserunt pariatur voluptas iste. At fuga aut et omnis praesentium sint commodi, repudiandae similique assumenda?"
+        resume : "Details en cours de radaction !"
     }
 ]
 

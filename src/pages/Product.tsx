@@ -4,6 +4,7 @@ import IProduct from "../types/product";
 import Products from "../types/product-data";
 import NavBar from "../components/NavBar";
 import BannerShort from "../components/BannerShot";
+import '../styles/prod.scss'
 
 
 
@@ -21,7 +22,9 @@ const Product = () => {
 
       <div className="container">
         <div className="head">
-          <div className="img"></div>
+          <div className="img">
+            <img src={product.img} alt="" />
+          </div>
           <div className="view">
             {/* code here */}
           </div>

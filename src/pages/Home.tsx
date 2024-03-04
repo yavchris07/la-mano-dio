@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import BannerShort from '../components/BannerShot'
 import NavBar from '../components/NavBar'
-import IProduct from '../types/product';
-import Products from '../types/product-data';
-import ProductCard from '../components/ProductCard';
+
 import '../styles/home.scss'
 import MiddleBanner from '../components/MiddleBanner';
 import IService from '../types/service';
