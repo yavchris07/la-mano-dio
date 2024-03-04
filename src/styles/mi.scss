@@ -2,60 +2,74 @@ $blue1:#003464;
 
 .mi{
     width: 100%;
-    height: 410px;
-    background-color: $blue1;
-    margin: 15px 0;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 7px;
-    align-items: center;
+    height: 600px;
+    background: url('../assets/building-new-concrete-houses.jpg');
+    background-size: cover;
 
-    .middle-card{
-        background-color: none;
-        height: 100px;
-        text-align: center;
-        color: white;
-        h3{
-            font-size: 30px;
-            margin: 4px;
+    .cover{
+        // background-color: rgb(240, 144, 0,.6);
+        background-color:rgb(33, 33, 33,.6);
+        width: 100%;
+        height: 100%;
+
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 7px;
+        align-items: center;
+
+        .middle-card{
+            background-color: none;
+            height: 100px;
+            text-align: center;
+            color: white;
+            h3{
+                font-size: 30px;
+                margin: 4px;
+            }
+            span{
+                font-size: 20px;
+                margin: 3px;
+            }
+            p{
+                font-size: 12px;
+                margin: 4px;
+                color: rgb(240, 144, 0);
+            }
         }
-        span{
-            font-size: 20px;
-            margin: 3px;
-        }
-        p{
-            font-size: 12px;
-            margin: 4px;
-            color: grey;
-        }
+
     }
 }
 
 //responsive
 @media screen and (max-width:600px) {
     .mi{
-        height: auto;
-        background-color: $blue1;
-        margin: 10px 0;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 4px;
-        
-        .middle-card{
-            background-color: none;
-            height: 100px;
-            h3{
-                font-size: 20px;
-                margin: 4px;
-            }
-            span{
-                font-size: 16px;
-                margin: 3px;
-            }
-            p{
-                font-size: 10px;
-                margin: 4px;
-                color: grey;
+       height: auto;
+
+        .cover{
+            height: auto;
+            background-color:rgb(33, 33, 33,.8);
+            margin: 10px 0;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 4px;
+
+            .middle-card{
+                background-color: none;
+                height: 150px;
+                h3{
+                    font-size: 20px;
+                    margin: 4px;
+                }
+                span{
+                    font-size: 16px;
+                    margin: 3px;
+                }
+                p{
+                    font-size: 12px;
+                    margin: 4px;
+                    color: rgb(240, 144, 0);
+                }
             }
         }
     }

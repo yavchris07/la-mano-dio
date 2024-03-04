@@ -80,9 +80,9 @@ $white-black:#f7f7f7;
                 }
                 button{
                     outline: none;
-                    background: #003464;
+                    background: rgb(242, 144, 0);
                     border: none;
-                    padding: 8px 2px;
+                    padding: 8px 5px;
                     width: 80px;
                     margin-top: 5px;
                     color: $white-opacity;
@@ -111,6 +111,12 @@ $white-black:#f7f7f7;
         text-align: end;
         justify-content: space-between;
         transition: all 2s;
+
+        img{
+            width: 230px;
+            height: 220px;
+            // display: none;
+        }
 
         p{
             padding-top: 100px;

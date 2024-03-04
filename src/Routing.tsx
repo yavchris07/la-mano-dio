@@ -21,8 +21,8 @@ import {
             <Route path='/' Component={Home} />
             <Route path='/apropos' Component={About} />
             <Route path='/services-produits' Component={Service} />
-            <Route path='/blogs' Component={Blogs} />
-            <Route path='/blog/:id' Component={Blog} />
+            {/* <Route path='/blogs' Component={Blogs} /> */}
+            {/* <Route path='/blog/:id' Component={Blog} /> */}
             <Route path='/product/:id' Component={Product} /> 
           </Routes>
           <Footer />

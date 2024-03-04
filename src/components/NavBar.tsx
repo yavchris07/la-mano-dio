@@ -5,7 +5,7 @@ import '../styles/banner.scss';
 const NavBar = () => {
   return (
     <>
-      <Banner />
+      {/* <Banner /> */}
       <nav>
         <div className='items'>
           <ul>
@@ -34,14 +34,14 @@ const NavBar = () => {
               </NavLink>
             </li>
           
-            <li>
+            {/* <li>
               <NavLink 
                 to={'/blogs'} 
                 className='link'
               >
                 Blog
               </NavLink>
-            </li>
+            </li> */}
             {/* <li>
               <NavLink 
                 to={'/store'} 

@@ -1,12 +1,15 @@
 // import React from 'react';
 import '../styles/footer.scss';
 import { useState } from 'react';
-// import icon from '../assets/icons/icon.png';
-// import fb from "../assets/icons/fb.png";
-// import inst from "../assets/icons/inst.png";
-// import twit from "../assets/icons/twit.png";
+import icon from '../assets/logo.png';
+import fb from "../assets/icons/fb.png";
+import inst from "../assets/icons/inst.png";
+import twit from "../assets/icons/twit.png";
 import IElement from '../types/element';
 import ELEMENT from '../types/element-data';
+
+// import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
+// import { FaXTwitter } from 'react-icons/fa6';
 
 export default function Footer() {
 
@@ -59,12 +62,12 @@ export default function Footer() {
       </div>
 
       <div className='foot'>
-        {/* <img src={icon} alt="icon" /> */}
+        <img src={icon} alt="icon" />
         <p>La Mano Di Dio sarl © 2024</p>
         <div className='links'>
-            {/* <img src={fb} alt="fg" />
+            <img src={fb} alt="fg" />
             <img src={inst} alt="inst" />
-            <img src={twit} alt="twit" /> */}
+            <img src={twit} alt="twit" />
         </div>
       </div>
     </div>

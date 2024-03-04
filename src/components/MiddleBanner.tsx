@@ -9,13 +9,13 @@ const MiddleBanner = () => {
 
   return (
     <div className="mi">
+      <div className='cover'>
         {
           chiffers.map(chiffer => {
-            return <MiddleCard 
-                key={chiffer.id} 
-                card={chiffer}  />
-            })
+            return <MiddleCard key={chiffer.id} card={chiffer}  />
+          })
         }
+      </div>
     </div>
   )
 }
