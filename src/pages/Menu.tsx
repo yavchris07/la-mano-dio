@@ -1,19 +1,15 @@
-import Banner from "./Banner";
-import { NavLink } from 'react-router-dom';
-import '../styles/banner.scss';
-import { CgMenuRightAlt } from "react-icons/cg";
-import log from "../assets/logo.png"
+import { NavLink, useNavigate } from 'react-router-dom';
+import '../styles/menu.scss';
+import { IoClose } from "react-icons/io5";
 
-const NavBar = () => {
+const Menu = () => {
+    const nav = useNavigate();
   return (
     <>
-      {/* <Banner /> */}
-      <nav>
-
-        <div className="log">
-          <img src={log} alt="" />
-        </div>
-        <div className='items'>
+        <div className='menu'>
+            <div className='close' onClick={()=> nav('/')}>
+                <IoClose style={{fontSize:34}}/>
+            </div>
           <ul>
             <li>
               <NavLink 
@@ -57,23 +53,26 @@ const NavBar = () => {
               </NavLink>
             </li> */}
 
-             
-             
+            <li>
+              <NavLink 
+                to={'/way-to-give'} 
+                className='link'
+              >
+                
+              </NavLink>
+            </li>
+            {/* <li>
+              <NavLink 
+                to={'/donate'} 
+                className='link'
+              >
+                {translate('donate')}
+              </NavLink>
+            </li> */}
           </ul>
         </div>
-
-        {/* <Header /> */}
-
-        <div className='option'>
-          <NavLink 
-            to={'/menu'}
-          >
-            <CgMenuRightAlt style={{color:'white', fontSize:37}} />
-          </NavLink>
-        </div>
-      </nav>
     </>
   )
 }
 
-export default NavBar
+export default Menu

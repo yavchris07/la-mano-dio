@@ -10,6 +10,7 @@ import {
   import Blog from './pages/Blog';
   import Product from './pages/Product';
   import Footer from './components/Footer';
+import Menu from './pages/Menu';
   
   
   export default function Routing() {
@@ -24,6 +25,7 @@ import {
             {/* <Route path='/blogs' Component={Blogs} /> */}
             {/* <Route path='/blog/:id' Component={Blog} /> */}
             <Route path='/product/:id' Component={Product} /> 
+            <Route path='/menu' Component={Menu} /> 
           </Routes>
           <Footer />
         </BrowserRouter>

@@ -1,0 +1,41 @@
+.menu{
+    background: #212121;
+    margin: 0;
+    display: block;
+    height: 700px;
+    .close{
+        color: #fff;
+        width: 100%;
+        text-align:end;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    ul{
+        color: white;
+        // background: red;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: 0px;
+        padding: 20px;
+        // list-style: none;
+        li{
+            text-decoration: none;
+            list-style: none;
+            // color: #212121;
+            font-size: 16px;
+            font-weight: 700;
+            .link{
+                text-decoration: none;
+                // color: rgb(35, 31, 31,.8)
+                color: #fff;
+                text-transform: uppercase;
+            }
+            :hover{
+                color: #ff9922;;
+            } 
+        }
+        
+    }
+}
