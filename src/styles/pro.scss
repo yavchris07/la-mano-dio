@@ -4,16 +4,20 @@ $blue1:#003464;
     width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 5px;
 
     .product-card{
-        height: 300px;
+        height: 350px;
         margin: 4px;
         .image{
             width: 100%;
             height: 65%;
-            background: rgb(0, 0, 255,.6);
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
         .note{
             h3{
@@ -27,7 +31,7 @@ $blue1:#003464;
             }
         }
         .btn{
-            background: $blue1;
+            background: rgb(242, 144, 0);
             border-radius: 3px;
             border: none;
             padding: 7px;
@@ -51,7 +55,7 @@ $blue1:#003464;
             .image{
                 width: 100%;
                 height: 65%;
-                background: rgb(0, 0, 255,.6);
+                 
             }
             .note{
                 h3{

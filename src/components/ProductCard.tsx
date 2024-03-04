@@ -13,7 +13,9 @@ const ProductCard = ({product}:productCardProps ) => {
 
   return (
     <div className='product-card' > 
-        <div className='image'> </div>
+        <div className='image'>
+          <img src={product.img} alt="" />
+        </div>
         <div className='note'>
             <h3>{product.title.substring(0,100)} ...</h3>
             <span> <CgCalendarDates /> {product.dt}</span>

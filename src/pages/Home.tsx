@@ -22,11 +22,11 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      <BannerShort title="NOS PRODUITS "/>
+      {/* <BannerShort title="NOS PRODUITS "/> */}
 
       <div className="product-card-home-list">
         {
-          products.map(product => {return <ProductCard  product={product} key={product.id} />})
+          // products.map(product => {return <ProductCard  product={product} key={product.id} />})
         }
       </div>
 

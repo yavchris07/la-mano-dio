@@ -1,5 +1,3 @@
-$blue1:#003464;
-
 .mi{
     width: 100%;
     height: 600px;
@@ -8,7 +6,7 @@ $blue1:#003464;
 
     .cover{
         // background-color: rgb(240, 144, 0,.6);
-        background-color:rgb(33, 33, 33,.6);
+        background-color:rgb(33, 33, 33,.7);
         width: 100%;
         height: 100%;
 
@@ -39,6 +37,33 @@ $blue1:#003464;
         }
 
     }
+}
+
+
+.shot-cover-container{
+    width: 100%;
+    height:500px;
+    background: url('../assets/african.jpg');
+    background-size: cover;
+    // background-position: ;
+    .shot-cover{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(33, 33, 33,.8);
+        text-align: center;
+        h4{
+            margin: 0;
+            font-size: 30px;
+            color: white;
+            padding-top: 180px;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            padding: 2px 15px;
+        }
+    }
+
 }
 
 //responsive
@@ -72,5 +97,23 @@ $blue1:#003464;
                 }
             }
         }
+    }
+
+    //shot cover
+    .shot-cover-container{
+        height:430px;
+        .shot-cover{
+            background-color:rgb(33, 33, 33,.8);
+            text-align: center;
+            h4{
+                margin: 0;
+                font-size: 22px;
+            }
+            p{
+                font-size: 15px;
+                padding: 2px 15px;
+            }
+        }
+    
     }
 }

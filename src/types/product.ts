@@ -1,5 +1,6 @@
 interface IProduct {
-    id : number
+    id : number,
+    img : string,
     title : string;
     dt : string,
     resume : string

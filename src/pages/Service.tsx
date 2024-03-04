@@ -5,6 +5,7 @@ import ProductCard from '../components/ProductCard';
 import IProduct from '../types/product';
 import Products from '../types/product-data';
 import '../styles/pro.scss'
+import ShotCover from '../components/shot-cover';
 
 const Service = () => {
   const [products] = useState<IProduct[]>(Products);
@@ -12,7 +13,13 @@ const Service = () => {
   return (
     <>
         <NavBar />
-        <BannerShort title="NOS PRODUITS & NOS SERVICES "/>
+        <ShotCover />
+
+        <div className='all-title'>
+          <h4>NOS PRODUITS &  <span style={{color:'rgb(242, 144, 0)'}}>NOS SERVICES</span></h4>
+          <p>LA MANO DI DIO, votre partenaire de confiance pour tous vos projets de construction, d'immobilier et d'import-export en République Démocratique du Congo et à l'étranger. Avec notre expertise diversifiée et notre engagement envers l'excellence, nous nous engageons à réaliser vos ambitions avec précision et qualité.</p>
+        </div>
+
         <div className="product-card-list">
         {
           products.map(product => {

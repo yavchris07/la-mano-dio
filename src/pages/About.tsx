@@ -1,6 +1,7 @@
 import BannerShort from "../components/BannerShot"
 import CardAbout from "../components/CardAbout";
 import NavBar from "../components/NavBar";
+import ShotCover from "../components/shot-cover";
 import '../styles/about.scss'
 
 
@@ -8,7 +9,8 @@ const About = () => {
   return (
     <>
       <NavBar />
-      <BannerShort title="APROPOS DE NOUS "/>
+      {/* <BannerShort title="APROPOS DE NOUS "/> */}
+      <ShotCover />
       <div className='about-card-list'>
 
      

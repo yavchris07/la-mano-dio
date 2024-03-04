@@ -11,7 +11,7 @@ $blue-grey : rgb(239 242 250/1);
 
 // Banner
 .Banner{
-    background-color: $blue1;
+    background-color: $blac-color;
     .bnn{
         display: flex;
         justify-content: space-between;
@@ -60,7 +60,7 @@ $blue-grey : rgb(239 242 250/1);
 
 //Nav Bar 
 nav{
-    background: $blue1;
+    background: $blac-color;
     // background: none;
     height: 60px;
     width: 100%;
@@ -104,7 +104,7 @@ nav{
                     text-transform: uppercase;
                 }
                 :hover{
-                    color: $blue;
+                    color: $yellow;
                 } 
             }
             
@@ -264,7 +264,7 @@ nav{
 
     //Nav Bar 
     nav{
-        background: $blue1;
+        background: #212121;
         // background: none;
         height: 60px;
         width: 100%;
@@ -294,7 +294,7 @@ nav{
                         text-transform: uppercase;
                     }
                     :hover{
-                        color: $blue;
+                        color: $yellow;
                     } 
                 }
                 

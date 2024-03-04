@@ -14,10 +14,10 @@ $blue-grey : rgb(239 242 250/1);
     // background-size: cover;
     background: $blue-grey;
     height: auto;
-    width: 70%;
+    width: 80%;
     // padding: 10px;
     margin: 10px auto;
-    border-left: 5px solid #003464;
+    border-left: 5px solid rgb(242, 144, 0);
     text-align: start;
     align-items: center;
     display: flex;
@@ -29,7 +29,7 @@ $blue-grey : rgb(239 242 250/1);
         font-size: 25px;
         // font-weight: 400;
         margin: 1px;
-        color: $blue1;
+        color: $blac-color;
         text-transform: uppercase;
     }
     span{
