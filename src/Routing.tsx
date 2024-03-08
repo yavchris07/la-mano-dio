@@ -5,12 +5,13 @@ import {
   } from 'react-router-dom';
   import Home from './pages/Home';
   import About from './pages/About';
-  import Blogs from './pages/Blogs';
+  import Services from './pages/Services';
   import Service from './pages/Service';
-  import Blog from './pages/Blog';
+  import Products from './pages/Products';
   import Product from './pages/Product';
   import Footer from './components/Footer';
 import Menu from './pages/Menu';
+import Contact from './pages/Contact';
   
   
   export default function Routing() {
@@ -21,10 +22,12 @@ import Menu from './pages/Menu';
           <Routes>
             <Route path='/' Component={Home} />
             <Route path='/apropos' Component={About} />
-            <Route path='/services-produits' Component={Service} />
-            {/* <Route path='/blogs' Component={Blogs} /> */}
-            {/* <Route path='/blog/:id' Component={Blog} /> */}
+            <Route path='/produits' Component={Products} />
             <Route path='/product/:id' Component={Product} /> 
+            <Route path='/services' Component={Services} />
+            <Route path='/service/:id' Component={Service} />
+            <Route path='/contacts' Component={Contact} />
+            {/* <Route path='/blog/:id' Component={Blog} /> */}
             <Route path='/menu' Component={Menu} /> 
           </Routes>
           <Footer />

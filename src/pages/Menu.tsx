@@ -29,12 +29,29 @@ const Menu = () => {
             </li>
             <li>
               <NavLink 
-                to={'/services-produits'} 
+                to={'/produits'} 
                 className='link'
               >
-                Nos produits & nos services
+                Nos Produits
               </NavLink>
             </li>
+            <li>
+              <NavLink 
+                to={'/services'} 
+                className='link'
+              >
+                Nos Services
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                to={'/contacts'} 
+                className='link'
+              >
+                Nos Contacts
+              </NavLink>
+            </li>
+          
           
             {/* <li>
               <NavLink 

@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import BannerShort from '../components/BannerShot'
 import NavBar from '../components/NavBar'
 
 import '../styles/home.scss'

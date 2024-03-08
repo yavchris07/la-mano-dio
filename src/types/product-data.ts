@@ -16,13 +16,6 @@ const Products:IProduct[] = [
         resume : "Notre equipe qualifiée propose une gamme complète de services de construction, allant de la conception à la réalisation. Que vous ayez besoin de construire une maison, un complexe commercial ou une infrastructure industrielle. Nous avons l expertise pour le réaliser"
     },
     {
-        id:2,
-        img: "/img/close.jpg",
-        title:" Planification du projet, du debut à la fin par léquipe La mano di dio",
-        dt:"le 14 nov 2023",
-        resume : "Details en cours de radaction !"
-    },
-    {
         id:3,
         img: "/img/construction.jpg",
         title:"Equipement de protection industrille",
