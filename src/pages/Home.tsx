@@ -19,7 +19,8 @@ import IKard from '../types/kard';
 const Home = () => {
   const [kard] = useState<IKard[]>(kards);
   const [services] = useState<IService[]>(SERVICES);
-  const [mport] = useState<Im[]>(IM)
+  const [mport] = useState<Im[]>(IM);
+  const triService = services.slice(0, 3);
 
   return (
     <>
@@ -50,7 +51,7 @@ const Home = () => {
       
       <div className="services-card-home-list">
         {
-          services.map(service => {
+          triService.map(service => {
             return <ServiceCard  key={service.id} service={service} />
           })
         }
