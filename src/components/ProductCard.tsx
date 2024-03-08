@@ -17,8 +17,7 @@ const ProductCard = ({product}:productCardProps ) => {
           <img src={product.img} alt="" />
         </div>
         <div className='note'>
-            <h3>{product.title.substring(0,100)} ...</h3>
-            <span> <CgCalendarDates /> {product.dt}</span>
+          <h3>{product.title.substring(0,100)} ...</h3>
         </div>
         <button onClick={()=> nv('/product/'+product.id)} className="btn">
           Voir plus <FaPlus style={{fontSize: 12}} />
