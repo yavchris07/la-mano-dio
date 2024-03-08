@@ -18,7 +18,7 @@ export const SERVICES: IService[] = [
     {
         "id":2,
         "title":"Acquisition, Vente et Gestion Immobilière",
-        "img": "/img/g.wenp",
+        "img": "/img/g.jpg",
         "resume":"Faites confiance à notre équipe pour vous guider dans toutes vos transactions immobilières, de l'achat à la vente en passant par la gestion. Nous nous engageons à maximiser la valeur de votre investissement immobilier tout en vous offrant un service personnalisé et attentionné.",
         "pf":""
     },
